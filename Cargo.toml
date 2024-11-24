@@ -1,0 +1,14 @@
+[package]
+name = "rusted-webkit"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["html", "tests/tester"]
+resolver = "2"
+
+[workspace.dependencies]
+logos = "0.14.2"
+
+[dependencies]
+html = { path = "html" }
